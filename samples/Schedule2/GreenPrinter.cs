@@ -44,6 +44,7 @@ namespace Schedule.Schedule2
 
         public void Start()
         {
+            throw new Exception("Test exception");
             Console.WriteLine(string.Format("{0} {1}",DateTime.Now, this.GetType().Name.ToUpper()));
         }
     }
