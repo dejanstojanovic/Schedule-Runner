@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schedule.Schedule1", "Schedule1\Schedule.Schedule1.csproj", "{50565752-3A09-4F7E-A79E-1EFB8E17E1EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleTestApp", "ScheduleTestApp\ScheduleTestApp.csproj", "{C6DD0EA2-FFF9-4550-9401-CE5E354F6C44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schedule.Schedule2", "Schedule2\Schedule.Schedule2.csproj", "{B0E130B3-FEA3-47D9-8581-0270D193513E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler", "..\src\ScheduleRunner\Scheduler.csproj", "{AB7DB2D3-41E9-4657-ADE9-E367A2FDCCDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50565752-3A09-4F7E-A79E-1EFB8E17E1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50565752-3A09-4F7E-A79E-1EFB8E17E1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50565752-3A09-4F7E-A79E-1EFB8E17E1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50565752-3A09-4F7E-A79E-1EFB8E17E1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6DD0EA2-FFF9-4550-9401-CE5E354F6C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DD0EA2-FFF9-4550-9401-CE5E354F6C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DD0EA2-FFF9-4550-9401-CE5E354F6C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DD0EA2-FFF9-4550-9401-CE5E354F6C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E130B3-FEA3-47D9-8581-0270D193513E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E130B3-FEA3-47D9-8581-0270D193513E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E130B3-FEA3-47D9-8581-0270D193513E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E130B3-FEA3-47D9-8581-0270D193513E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7DB2D3-41E9-4657-ADE9-E367A2FDCCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7DB2D3-41E9-4657-ADE9-E367A2FDCCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7DB2D3-41E9-4657-ADE9-E367A2FDCCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7DB2D3-41E9-4657-ADE9-E367A2FDCCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
