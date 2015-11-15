@@ -88,9 +88,6 @@ namespace Scheduler
 
                                     Task.Run(() =>
                                     {
-                                        Console.WriteLine(String.Concat(Enumerable.Repeat("*", 14)));
-                                        Console.WriteLine("Schedule run time: {0}", DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss.fff"));
-                                        Console.WriteLine("Running schedule: {0}", schedule.GetType().Name);
                                         schedule.Schedule.GetInstance().Start();
                                     });
                                 }
