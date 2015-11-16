@@ -10,7 +10,9 @@ namespace ScheduleTestApp
     {
         static void Main(string[] args)
         {
-            var runner = new Scheduler.ScheduleRunner(new Scheduler.ExceptionLog());
+            //var runner = new Scheduler.ScheduleRunner(new Scheduler.ExceptionWindowsLog());
+            var runner = new Scheduler.ScheduleRunner(new Scheduler.ExceptionConsoleLog());
+
             Console.ReadLine();
         }
     }
