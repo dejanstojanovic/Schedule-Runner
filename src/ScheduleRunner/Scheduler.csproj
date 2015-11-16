@@ -46,7 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExceptionLog.cs" />
+    <Compile Include="ExceptionConsoleLog.cs" />
+    <Compile Include="ExceptionWindowsLog.cs" />
     <Compile Include="ILog.cs" />
     <Compile Include="ISchedule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

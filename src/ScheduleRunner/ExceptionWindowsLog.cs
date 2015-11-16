@@ -8,23 +8,24 @@ using System.Reflection;
 
 namespace Scheduler
 {
-    public class ExceptionLog : ILog
+    public class ExceptionWindowsLog : ILog
     {
         #region Fields
         private string source = Assembly.GetEntryAssembly().GetName().Name;
         public const string DEFAULT_LOG = "Application";
         private string log = DEFAULT_LOG;
-
+        private int evntId = 1000;
+        private short evntCategory = 100;
         #endregion
 
         #region Constructors
-        public ExceptionLog()
+        public ExceptionWindowsLog()
         {
             this.CreateSource();
         }
 
 
-        public ExceptionLog(string source, string log = DEFAULT_LOG)
+        public ExceptionWindowsLog(string source, string log = DEFAULT_LOG)
         {
             this.source = source;
             this.log = log;
@@ -50,7 +51,9 @@ namespace Scheduler
             {
                 EventLog.WriteEntry(this.source,
                                     ex.StackTrace,
-                                    EventLogEntryType.Error);
+                                    EventLogEntryType.Error,
+                                    this.evntId,
+                                    this.evntCategory);
             });
         }
     }
